@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import LoginForm from "./login/LoginForm";
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(<h1>Webinar from GlobalLogic!</h1>)
+root.render(<LoginForm />)
